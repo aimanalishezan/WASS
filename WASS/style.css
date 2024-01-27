@@ -1,0 +1,209 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --color1: #3e3c41;
+    --color2: white;
+    --color3:  	#22eb5d;
+    --color4: #0000008c;
+}
+
+header{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background: var(--color1);
+    padding: 5px 5%;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+header .left-nav{
+    width: 25%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    padding-left: 5px;
+    align-items: center;
+}
+.left-nav .menu img{
+    padding-top: 4px;
+    width: 30px;
+}
+header .left-nav h1{
+    font-size: 30px;
+    color: var(--color2);
+    padding:5px 20px;
+}
+header .center-nav{
+    width: 40%;
+    align-items: center;
+    margin: 5px auto;
+    /* background-color: rgb(54, 153, 51); */
+}
+header .center-nav .search{
+    align-items: center;
+    display: flex;  
+}
+header .center-nav .search-box{
+    width: 350px;
+    float: left;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: none;
+    padding: 5px;
+}
+
+header .center-nav a{
+    font-size: 25px;
+    /* background-color: var(--color3); */
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--color2);
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+header .right-nav{
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    width: 25%;
+    /* background-color: rgb(12, 6, 18); */
+}
+header .right-nav h1{
+    padding-left: 5px;
+    font-size: 25px;
+    color: var(--color2);
+}
+header .right-nav .button{
+    display: flex;
+    padding-left: 50px;
+    font-size: 30px;
+    border-radius: 2px;
+}
+header .right-nav .button .log{
+    background-color: var(--color3);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+header .right-nav .button .sing{
+    background-color: var(--color3);
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.main-conteiner{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.left-conteiner{
+    width: 75%;
+    margin-top: 20px;
+    /* background-color: cadetblue; */
+}
+.left-conteiner .logo{
+    width: 20%;
+    /* background-color: red ; */
+    margin-right: 20px;
+}
+.left-conteiner .logo span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    margin-left: 20px;
+    font-weight: 800;
+    padding-left: 2px;
+    width: 50px;
+}
+.left-conteiner .havent{
+    width: 80%;
+    /* background-color: rgb(93, 68, 68) ; */
+    text-align: center;
+    font-size: 25px;
+}
+.main-conteiner .left-conteiner .left-left-conteiner{
+    display: flex;
+}
+/*right-conteine*/
+.right-conteiner{
+    align-items: center;
+    width: 25%;
+    height: 600px;
+    border-left: 2px solid green;
+    /* background-color: rgb(5, 172, 61); */
+}
+.right-conteiner h1{
+    border: 1.5px solid var(--color4);
+    background-color: var(--color3);
+    text-align: center;
+    font-size: 25px;
+}
+.right-conteiner .offer-scroll{
+    margin: 5px;
+    width: 90%;
+    height: 50%;
+    /* border-bottom: 2px solid; */
+    margin: 5px auto;
+    padding: 5px;
+    overflow: auto;
+}
+.right-conteiner .offer-scroll p{
+    font-size: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border: var(--color1);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--color1);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--color3);
+}
+/* header h1{
+    font-size:35px;
+    text-align: right;
+    padding: 7px 15px;
+    color: rgb(245, 112, 18); */
+/* }
+.body{
+    background-color: #BCD2D0;
+    height: 100vh;
+    width: 100%;
+}
+div{
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    margin: 5px auto;
+    padding-top: 20px;
+
+    background-color: rgb(156, 142, 142);
+}
+.upperText{
+    font-size: 30px;
+}
+.servise_section{
+    background-color: tan;
+    width: 80%;
+    display: flex;
+}
+.servise_section .servise1{
+    width: 20%;
+
+} */
