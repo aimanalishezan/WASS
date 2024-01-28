@@ -203,4 +203,12 @@ footer h2{
     height: 160px;
     margin-top: 5px;
 }
+.scrollbox-inner span{
+    font-size: 25px;
+    background-color: var(--color3);
+    color: #ffff;
+    margin: 5px;
+    padding: 3px;
+    display: block;
+}
 
