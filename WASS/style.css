@@ -165,6 +165,9 @@ header .right-nav .button .sing{
     background-color: rebeccapurple;
     margin: 2px;
 }
+::-webkit-right-conteiner{
+    width: 10px;
+}
 /* .right-conteiner .offer-scroll p{
     font-size: 20px;
 } */
