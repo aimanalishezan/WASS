@@ -137,13 +137,22 @@ header .right-nav .button .sing{
 }
 /*right-conteine*/
 .right-conteiner{
+    flex-basis: 25%;
+    background: var(--bg-color);
+    padding: 20px;
+    color: #626262;
+    border-radius: 4px;
+    flex-basis: 25%;
     position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    /* position: sticky;
     align-items: center;
     width: 25%;
     height: 700px;
     border-left: 2px solid green;
     /* background-color: rgb(5, 172, 61); */
-}
+} */
 .right-conteiner h1{
     border: 1.5px solid var(--color4);
     background-color: var(--color3);
