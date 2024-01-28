@@ -151,7 +151,7 @@ header .right-nav .button .sing{
 }
 .sideber{
     position: fixed;
-    top: 40px;
+    top: 0px;
     right: 0;
     width: 25%;
     height: 100%;
@@ -159,7 +159,7 @@ header .right-nav .button .sing{
     display: flex ;
     flex-direction: column;
     padding: 20px 5px 0px 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 header h2{
     font-size: 35px;
