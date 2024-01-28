@@ -162,6 +162,7 @@ header .right-nav .button .sing{
 .right-conteiner .offer .offer-box{
     width: 98%;
     height: 200px;
+    background-color: rebeccapurple;
 }
 /* .right-conteiner .offer-scroll p{
     font-size: 20px;
