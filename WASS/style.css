@@ -142,7 +142,7 @@ header .right-nav .button .sing{
     width: 25%;
     height: 100%;
     border-left: 2px solid green;
-    background-color: rgb(5, 172, 61);
+    background-color: #efefef;
 }
 .right-conteiner h1{
     border: 1.5px solid var(--color4);
