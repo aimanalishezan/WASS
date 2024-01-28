@@ -161,7 +161,7 @@ header .right-nav .button .sing{
     font-size: 20px;
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     width: 10px;
 }
 ::-webkit-scrollbar-track{
@@ -174,7 +174,7 @@ header .right-nav .button .sing{
 }
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--color3);
-}
+} */
 /* header h1{
     font-size:35px;
     text-align: right;
