@@ -140,7 +140,7 @@ header .right-nav .button .sing{
     position: sticky;
     align-items: center;
     width: 25%;
-    height: 700px;
+    height: 100%;
     border-left: 2px solid green;
     /* background-color: rgb(5, 172, 61); */
 }
@@ -152,7 +152,7 @@ header .right-nav .button .sing{
 }
 .right-conteiner .offer{
     margin: 5px;
-    width: 100%;
+    width: 95%;
     height: 60%;
     /* border-bottom: 2px solid; */
     margin: 5px auto;
@@ -161,7 +161,7 @@ header .right-nav .button .sing{
 }
 .right-conteiner .offer .offer-box{
     width: 95%;
-    height: 200px;
+    height: 28%;
     background-color: rebeccapurple;
     margin: 2px auto;
 }
