@@ -136,3 +136,8 @@ header .right-nav .button .sing{
     display: flex;
 }
 /*right-conteine*/
+.right-conteiner{
+    height: 100vh;
+    width: 30%;
+    background-color: #efefef;
+}
