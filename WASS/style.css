@@ -18,6 +18,7 @@ header{
     position: sticky;
     top: 0%;
     z-index: 100;
+    overflow: hidden;
 }
 header .left-nav{
     width: 25%;
@@ -135,81 +136,60 @@ header .right-nav .button .sing{
     display: flex;
 }
 /*right-conteine*/
-.right-conteiner{
-    align-items: center;
-    width: 25%;
-    height: 600px;
-    border-left: 2px solid green;
-    /* background-color: rgb(5, 172, 61); */
-}
-.right-conteiner h1{
-    border: 1.5px solid var(--color4);
-    background-color: var(--color3);
-    text-align: center;
-    font-size: 25px;
-}
-.right-conteiner .offer{
-    margin: 5px;
-    width: 90%;
-    height: 60%;
-    /* border-bottom: 2px solid; */
-    margin: 5px auto;
-    padding: 5px;
-}
-.right-conteiner .offer .all-offer-box .offer-box .slide-box{
-    height: 25%;
-    width: 100%;
-    background-color: #3e3c41;
-    margin: 2px;
-}
-
-/* .right-conteiner .offer-scroll p{
-    font-size: 20px;
+/* .right-conteiner{
+    height: 100vh;
+    width: 30%;
+    background-color: #efefef;
 } */
 
-/* ::-webkit-scrollbar{
+::-webkit-scrollbar{
     width: 10px;
 }
-::-webkit-scrollbar-track{
-    border: var(--color1);
-    border-radius: 5px;
-}
 ::-webkit-scrollbar-thumb{
-    background-color: var(--color1);
+    background-color: #5865f2;
     border-radius: 5px;
 }
-::-webkit-scrollbar-thumb:hover{
-    background-color: var(--color3);
-} */
-/* header h1{
-    font-size:35px;
-    text-align: right;
-    padding: 7px 15px;
-    color: rgb(245, 112, 18); */
-/* }
-.body{
-    background-color: #BCD2D0;
-    height: 100vh;
-    width: 100%;
+.sideber{
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    background-color: hsla(180, 47%, 3%, 0.795);
+    display: flex ;
+    flex-direction: column;
+    padding: 20px 5px 0px 20px;
+    margin-top: 100px;
 }
-div{
-    width: 80%;
-    height: 200px;
-    text-align: center;
-    margin: 5px auto;
-    padding-top: 20px;
-
-    background-color: rgb(156, 142, 142);
+header h2{
+    font-size: 35px;
+    color: yellow; 
+    padding-bottom: 5px;
 }
-.upperText{
-    font-size: 30px;
+.scrollbox{
+    overflow: auto;
+    padding-right: 10px;
+    visibility: hidden;
 }
-.servise_section{
-    background-color: tan;
-    width: 80%;
+.scrollbox-inner,
+.scrollbox:hover{
+    visibility: visible;
+}
+.scrollbox-inner p{
+    font-size: 16px;
+    color: #fff;
+}
+footer h2{
+    font-size: 25px;
+    color: #fff;
+    padding: 15px 0 40px;
+}
+.content{
+    left: 250px;
     display: flex;
-}
-.servise_section .servise1{
-    width: 20%;
+    position: relative;
+    width: calc(100%-250px);
+    height: 100vh;
+    background-color: rgb(125, 170, 155);
 
-} */
+}
