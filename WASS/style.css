@@ -137,7 +137,7 @@ header .right-nav .button .sing{
 }
 /*right-conteine*/
 .right-conteiner{
-    box-sizing: border-box;
+    position: sticky;
     align-items: center;
     width: 25%;
     height: 700px;
