@@ -157,6 +157,12 @@ header .right-nav .button .sing{
     padding: 5px;
     overflow: auto;
 }
+.right-conteiner .offer .offer-box{
+    height: 13%;
+    width: 100%;
+    background-color: #3e3c41;
+}
+
 /* .right-conteiner .offer-scroll p{
     font-size: 20px;
 } */
