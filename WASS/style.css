@@ -164,13 +164,24 @@ header .right-nav .button .sing{
     margin: 0%;
     padding: 5px;
 }
+
 .offer-box-left{
-    width: 50%;
+    width: 48%;
     height: 50%;
     background-color: #d2e0d7;
     margin: 2px;
     border: 1px solid;
     display: inline-block;
+    left: 0%;
+}
+.offer-box-right{
+    width: 48%;
+    height: 50%;
+    background-color: #d2e0d7;
+    margin: 2px;
+    border: 1px solid;
+    display: inline-block;
+    right: 0%;
 }
 .profile-area{
     width: 100%;
@@ -180,11 +191,12 @@ header .right-nav .button .sing{
 
 .offer-box-left{
     /* display: flex; */
-    padding: 0%;
+    /* padding: 0%;
     left: 0%;
+    width: 48%; */
 }
 .slider{
-    width: 180px;
+    width: 100%;
     height: 150px;
     overflow: hidden;
     /* margin: 5px auto; */
@@ -260,6 +272,9 @@ figure{
     100%{
         left:0;
     }
+}
+.offer-box-right{
+    
 }
 
 /* right-siteber */
