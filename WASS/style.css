@@ -178,9 +178,10 @@ header .right-nav .button .sing{
     background-color: #233328;
 }
 
-.offer-box-left,{
+.offer-box-left{
     /* display: flex; */
     padding: 0%;
+    left: 0%;
 }
 .slider{
     width: 180px;
