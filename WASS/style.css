@@ -3,10 +3,10 @@
     padding: 0%;
 }
 :root{
-    --color1: #3e3c41;
-    --color2: white;
-    --color3:  	#22eb5d;
-    --color4: #0000008c;
+    --color1: #d2c3e9;
+    --color2: rgb(192, 200, 243);
+    --color3:  	#708adf;
+    --color4: #000000b7;
 }
 
 header{
