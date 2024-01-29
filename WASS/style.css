@@ -1,3 +1,6 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,700&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -19,6 +22,8 @@ header{
     top: 0%;
     z-index: 100;
     overflow: hidden;
+    /* margin-bottom: 0%; */
+    /* display: inline-block; */
 }
 header .left-nav{
     width: 25%;
@@ -103,12 +108,13 @@ header .right-nav .button .sing{
 .main-conteiner{
     margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     color: black;
 }
 .left-conteiner{
     width: 70%;
     margin-top: 20px;
+    left: 0;
     /* background-color: cadetblue; */
 }
 .left-conteiner .logo{
@@ -142,7 +148,121 @@ header .right-nav .button .sing{
     background-color: #efefef;
 } */
 
-::-webkit-scrollbar{
+.right-conteiner{
+    position: fixed;
+    top: 2;
+    right: 0;
+    width: 28%;
+    height: 100%;
+    background-color: var(--color1);
+    /* display: flex ; */
+}
+.right-conteiner h2{
+    font-size: 25px;
+    background-color: var(--color3);
+    color: var(--color1);
+    margin: 0%;
+    padding: 5px;
+}
+.offer-box-left{
+    width: 50%;
+    height: 50%;
+    background-color: #d2e0d7;
+    margin: 2px;
+    border: 1px solid;
+    display: inline-block;
+}
+.profile-area{
+    width: 100%;
+    height: 50%;
+    background-color: #233328;
+}
+
+.offer-box-left,{
+    /* display: flex; */
+    padding: 0%;
+}
+.slider{
+    width: 180px;
+    height: 150px;
+    overflow: hidden;
+    /* margin: 5px auto; */
+    /* padding: 5px; */
+    border: 2px ;
+}
+figure{
+    position: relative;
+    /* top: 5px; */
+    padding: 2px;
+    width: 400%; /*width dikali slide*/
+    animation: 20s slide infinite;
+}
+.slide{
+    position: relative;
+    width: 25%;/*width dibagi slide*/
+    float: left;
+}
+.slide h1{
+    position: absolute;
+    font-size: 30px;
+    width: 100%;
+    color: #ffff;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.slider img{
+    width: 100%;
+    height: 500px;
+    /* background-size: cover; */
+}
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    55%{
+        left:-300%;
+    }
+    65%{
+        left:-300%;
+    }
+    66%{
+        left:-300%;
+    }
+    74%{
+        left:-200%;
+    }
+    75%{
+        left:-200%;
+    }
+    85%{
+        left:-100%;
+    }
+    90%{
+        left:0;
+    }
+    100%{
+        left:0;
+    }
+}
+
+/* right-siteber */
+/* ::-webkit-scrollbar{
     width: 10px;
 }
 ::-webkit-scrollbar-thumb{
@@ -160,6 +280,7 @@ header .right-nav .button .sing{
     flex-direction: column;
     padding: 20px 5px 0px 20px;
     margin-top: 72px;
+    font-family: 'Poppins', sans-serif;
 }
 header h2{
     font-size: 25px;
@@ -174,6 +295,7 @@ header h2{
     height: 100%;
     padding-right: 10px;
     visibility: hidden;
+
 }
 .scrollbox-inner,
 .scrollbox:hover{
@@ -206,9 +328,9 @@ footer h2{
 .scrollbox-inner span{
     font-size: 25px;
     background-color: var(--color3);
-    color: #ffff;
-    margin: 5px;
+    color: var(--color1);
+    margin: 5px 0px;
     padding: 3px;
-    display: block;
+    display: block; */
 }
 
