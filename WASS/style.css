@@ -116,8 +116,9 @@ header .right-nav .button .sing{
 .left-conteiner{
     width: 70%;
     margin-top: 20px;
+    height: 100%;
     left: 0;
-    /* background-color: cadetblue; */
+
 }
 .left-conteiner .logo{
     width: 20%;
